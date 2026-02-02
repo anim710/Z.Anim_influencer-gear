@@ -141,7 +141,7 @@ p {
 
 /* navbar */
 .navbar {
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
   width: 100%;
   height: 80px;
   display: flex;
@@ -157,7 +157,7 @@ p {
 }
 
 .nav-links a{
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
     display: flex;
     gap: 30px;
     text-decoration: none;
@@ -165,14 +165,14 @@ p {
 
 }
 .nav-links{
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
 nav>div{
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     display: flex;
     align-items: center;
     gap: 24px;
@@ -217,7 +217,7 @@ nav>div{
 /* banner */
 
 .banner{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 100%;
     height: 500px;
     display: flex;
@@ -228,7 +228,7 @@ nav>div{
 }
 
 .banner-content{
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     text-align: left;
     width: 50%;
     height: 1200px;
@@ -249,7 +249,7 @@ nav>div{
     width: 50%;
     max-width: 440px;
     max-height: 414px;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     /* position: relative; */
     display: flex;
     align-items: center;  
@@ -257,7 +257,7 @@ nav>div{
 }
 
 .bn-circle{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     position: relative;
     width: 30rem;
     height: 30rem;
@@ -266,7 +266,7 @@ nav>div{
     justify-content: center;
 }
 .bn-img{
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     position: absolute;
     width: 28rem;
     height: 25rem;
@@ -282,7 +282,7 @@ nav>div{
 /* sponsor */
 
 .sponsor{
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     width: 100%;
     height: 150px;
     display: flex;
@@ -291,7 +291,7 @@ nav>div{
     gap: 6rem;
 }
 .sponsor-img{
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     width: 1110px;
     height: 110px;
     
@@ -301,17 +301,148 @@ nav>div{
     gap: 1.5rem;
 }
 .sp-im{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     /* width: 55px;
     height: 31px; */
 }
 
 
+/* collection */
+.collection{
+    border: 2px solid violet;
+    width: 1110px;
+    /* height: 3306px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.collection-header{
+  border: 2px solid teal;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.collection-items{  
+    border: 2px solid sandybrown;
+     /* width: 100%;  */
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+    margin: 1.5rem;
+
+}
+.item-card{
+    border: 2px solid indigo;
+    width: 330px;
+    /* height: 400px; */
+    align-items: center;
+    justify-content: center;
+    ;
+    
+   
+}
+.item-img{
+    border: 2px solid aqua;
+  
+    padding-top: 17px;
+    padding-bottom: 1rem;
+    padding-left: 14px;
+    padding-right: 15px;
+
+}
+.item-img>img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
+/*feature  */
+.featured{
+    border: 2px solid olive;
+    width: 1110px;
+    /* height: 3306px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.featured-content{
+    border: 2px solid coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    margin: 0 auto;
+}
+.featured-img{
+  border: 3px solid aqua;
+}
+.featured-text{
+    border: 3px solid orange;
+    width: 610px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.secondary-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    gap: 10;
+    
+    border: 2px solid #E02C6D;
+    background-color: #E02C6D;
+    flex-direction: row;
+    width: 196px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+/* footer */
+.footer{
+    border: 2px solid maroon;
+    background-color: rgba(10, 8, 38, 1);
+    background: cover;
+    color: white;
+    width: 100%;
+    height: 230px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+}
 
 
+.footer-section{
+  border: 2px solid red;
+  width: 500px;
+  /* height: 150px; */
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 2rem; */
+
+}
 
 
 
